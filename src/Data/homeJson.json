@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Assurance vie",
+        "class": "border-right men"
+    },
+    {
+        "title": "SCPI",
+        "class": "border-right men"
+    },
+    {
+        "title": "Plan d'epargne Retraite",
+        "class": "border-right men"
+    },
+    {
+        "title": "Bourse",
+        "class": "border-right men"
+    },
+    {
+        "title": "Defisocialisation",
+        "class": "men"
+    }
+]

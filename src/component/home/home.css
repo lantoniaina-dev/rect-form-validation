@@ -1,0 +1,52 @@
+.box-menus {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(54, 75, 75);
+}
+
+.box-menus nav {
+    text-align: center;
+}
+
+.box-nav-men {
+    background-color: rgb(54, 75, 75);
+}
+
+.box-menus nav span {}
+
+.border-right {
+    border-right: 2px solid white;
+}
+
+.border-bottom {
+    border-bottom: 2px solid white !important;
+}
+
+.box-menus nav button {
+    text-decoration: none;
+    border: none;
+    background-color: rgba(169, 210, 218, 0);
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    transition: 0.5;
+}
+
+.box-menus nav button:hover {
+    border-bottom: 2px solid white;
+}
+
+.affiche-none {
+    display: none;
+}
+
+.affiche-block {
+    display: block;
+}
+
+.box-detail-menus {
+    position: relative;
+}

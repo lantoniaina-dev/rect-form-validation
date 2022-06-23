@@ -1,0 +1,15 @@
+.dlmenus {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    background-color: rgb(54, 75, 75);
+    border-radius: 5px;
+}
+
+.dl {
+    position: relative;
+    margin: 30px;
+    margin-top: 30px;
+}

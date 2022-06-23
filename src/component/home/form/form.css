@@ -1,0 +1,31 @@
+.preact {
+    opacity: 0;
+    color: white;
+}
+
+.preact:hover {
+    opacity: 1;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.margin-right-30 {
+    margin-right: 30px;
+}
+
+
+.info-perso {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.info-perso div {
+    width: 50%;
+}
+
+form p {
+    color: red;
+}
