@@ -38,6 +38,7 @@ export function FormHome() {
         email: "",
         codePostal: ""
     };
+
     const [formValues, setFormValues] = useState(initialValues);
     const [formErrors, setFormErrors] = useState<any>({});
     const [isSubmit, setIsSubmit] = useState(false);
@@ -56,8 +57,13 @@ export function FormHome() {
 
     let handleSubmitForm = (e: any) => {
         e.preventDefault();
-        setFormErrors(validate(formValues));
+        let errors = validate(formValues)
+        let erroLength = Object.keys(errors).length
+
+        setFormErrors(errors);
         setIsSubmit(true);
+
+        erroLength === 0 ? console.log("SendDataService !") : console.log("Not Send !")
     }
 
     return (
@@ -142,7 +148,7 @@ export function FormHome() {
                 </div>
 
 
-                <button type="submit" className="btn btn-dark" disabled={infoJuste === false} >Envoyer ma demande</button>
+                <button data-testid="button-submit" type="submit" className="btn btn-dark" disabled={infoJuste === false} >Envoyer ma demande</button>
 
 
             </form>
