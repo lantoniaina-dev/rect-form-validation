@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './home.css';
 import dataMenus from '../../Data/homeJson.json'
 import DlMenus from './dlMenus/dlmenus';
@@ -6,6 +7,7 @@ import { log } from 'console';
 import { number } from 'yup';
 import { nextTick } from 'process';
 import { FormHome } from './form/form'
+import Liste from '../liste/liste';
 let Home: React.FC = () => {
 
     let boxelement = useRef<HTMLDivElement>(null);
@@ -82,7 +84,9 @@ let Home: React.FC = () => {
                 <FormHome />
             </div>
 
-
+            <div>
+                <Liste />
+            </div>
         </div>
 
     )

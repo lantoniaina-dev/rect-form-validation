@@ -23,7 +23,7 @@ test("render FormHome correctly 2", () => {
     expect(label).toBeInTheDocument()
 })
 
-test("validation  ", () => {
+test("validate  ", () => {
     const data = { numero: "", nom: "", prenom: "", email: "", codePostal: "625" };
     const data2 = { numero: "52", nom: "", prenom: "", email: "", codePostal: "" };
     const data3 = { numero: "52526", nom: "", prenom: "", email: "", codePostal: "" };
